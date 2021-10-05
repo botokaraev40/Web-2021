@@ -1,0 +1,139 @@
+body {
+    
+    margin:0; /* Отступ равен нулю*/
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.header {
+    background-color: rgb(196, 189, 176);;
+    color: rgb(0, 55, 128);
+    
+    
+    
+}
+.name {
+    text-transform: uppercase;
+}
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+.main-menu {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0;/*внутренний отступ*/
+
+
+}
+.main-menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.main-menu a:hover {
+    transition: color 0.5s;
+    color: rgb(19, 182, 231);
+    
+}
+main p {
+    text-align: justify;
+}
+.avatar {
+    height: 350px;
+}
+.avatar img{
+    height: 100%;
+    text-align: center;
+    margin: 3rem 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.btn {
+    text-decoration: none;
+    color: #1214a1;
+    font-weight: bold;
+    border: 2px solid #1214a1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn:hover {
+    transition: color 0.5s, border-color 0.5s;
+    color:rgb(19, 182, 231);
+    border-color: rgb(19, 182, 231);
+}
+.contac-me-btn {
+    color: white ;
+    border-color: white;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+.footer {
+    background-color: rgb(196, 189, 176);
+    color: white;
+    padding: 40px 0;
+    margin-top: 2rem;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.w-50 {
+    max-width: 50%;
+}
+.my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+.main-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+/*
+main p {
+    text-align: "justify";
+}
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+.main-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(255,255,255);
+    padding: 20px 0;
+    border-top: 5px solid rgb(255,102,0);
+    position: absolute;
+    border-top-right-radius: 50vmax;
+
+}
+.container {
+    width: 95%;
+    margin: 0 auto;    
+}*/
