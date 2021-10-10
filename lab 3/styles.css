@@ -216,6 +216,11 @@ body {
     .product-details .information {
         height: auto;
     }
+    .product-image img {
+        width: 100%;
+        height: auto;
+    }
+    
 
 
 }
