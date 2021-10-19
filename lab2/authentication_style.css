@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+
+body{
+    /* Для некоторых мобильных браузеров */
+    min-height:100%;
+}
+
+
+.container {
+    font-size: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 5px solid brown;
+    border-radius: 10px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.btn {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    background-color: gray;
+    
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
