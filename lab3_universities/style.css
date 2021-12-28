@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    min-width: 300px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+.header {
+    background-color: rgb(61, 109, 121);
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: 5px solid rgb(12, 238, 189);
+
+}
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.main-menu a {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 15px;
+    color: black
+}
+
+.navigation {
+    flex-grow: 1; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile {
+    display: flex;
+}
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+
+}
+
+.sidebar {
+    padding: 20px;
+    width: 220px;
+    box-sizing: border-box;
+    float: left;
+}
+.goods-list {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.goods {
+    display: inline-block;
+    border: 1px solid rgb(60, 60, 114);
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 300px;
+    min-width: 250px;
+
+}
+.goods-img img {
+    margin: 0 auto;
+    display: block;
+}
+.price-and-buy {
+    height: 50px;
+    
+}
+
+.buy-btn {
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: rgb(160, 160, 189);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    border: black dashed;
+}
+.footer {
+    background-color: rgb(61, 109, 121);
+    color: black;
+    border-top: 5px solid rgb(12, 238, 189);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 2rem;
+}
+@media all and (max-width: 600px) {
+    .main-menu {
+        flex-direction: column;
+    }
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile {
+        justify-content: center;
+    }
+}
