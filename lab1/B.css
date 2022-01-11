@@ -112,28 +112,11 @@ main p {
     display: inline;
     margin-right: 10px;
 }
-/*
-main p {
-    text-align: "justify";
-}
-.container {
-    max-width: 75%;
-    margin: 0 auto;
-}
-.main-menu a {
-    text-decoration: none;
-    color: white;
-}
-
-.footer {
-    background-color: rgb(255,255,255);
-    padding: 20px 0;
-    border-top: 5px solid rgb(255,102,0);
-    position: absolute;
-    border-top-right-radius: 50vmax;
+img {
+    height: 70px;
+    width: 800px;
 
 }
-.container {
-    width: 95%;
-    margin: 0 auto;    
-}*/
+figure {
+    margin: 100px;
+}
