@@ -1,0 +1,131 @@
+.image-fluid {
+    width: 120px;
+    height: 100px;
+}
+.navbar-brand {
+    margin-left: 20px;
+}
+.carousel-item {
+    height: 400px;
+    
+
+    
+}
+.carousel-item img {
+    height: 600px;
+}
+.carousel-control-prev-icon {
+    background-color: rgb(27, 0, 0);
+}
+.carousel-control-next-icon {
+    background-color: rgb(27, 0, 0);
+}
+
+
+.carousel {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 90px;
+    border: 5px solid rgb(16, 59, 45);
+}
+.navbar {
+    background-color: rgb(25, 102, 83);
+    border-bottom: 5px solid rgb(16, 59, 45);
+
+
+}
+.nav-link {
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.col-sm {
+    border: 5px solid rgb(16, 59, 45);
+    margin-left: 10px;
+}
+.row {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+
+}
+
+
+.goods-list {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.goods {
+    display: inline-block;
+    border: 2px solid rgb(16, 59, 45);
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 300px;
+    min-width: 250px;
+
+}
+.goods-img img {
+    margin: 0 auto;
+    display: block;
+}
+.price-and-buy {
+    height: 50px;
+    
+}
+
+.buy-btn {
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: rgb(160, 160, 189);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    border: black dashed;
+}
+
+.cost p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: rgb(25, 102, 83);
+    color: black;
+    border-top: 5px solid rgb(16, 59, 45);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 2rem;
+}
+
+.total-cost {
+    display: inline-block;
+    border: 2px solid rgb(16, 59, 45);
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 50px;
+    min-width: 40px;
+}

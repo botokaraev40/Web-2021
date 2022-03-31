@@ -13,21 +13,23 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <header class="header">
-        <nav class="clearfix">  
-            <ul class="clearfix">  
-                <li><a href="#">Главная</a></li>  
-                <li><a href="#">Административная</a></li>     
-            </ul>  
-            <a href="#" id="pull">Menu</a>  
-        </nav>  
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Главная</a>
+            </div>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Административная</a>
+              </div>
+          </nav>
 
     </header>
 
-    <div class = "container-fluid">
+    <div class = "container-boot">
         <div class = "row-md-2">
             <div class = "col-md-4" style="background-color: #ff9999">Быстрая доставка</div>
             <div class = "col-md-4" style="background-color: #99ccff">Доставка с машиной</div>
@@ -51,7 +53,7 @@
                     <div class="price-and-buy">
                         <a class = "buy-btn" href="#">Заказать</a>
                         <form>
-                            <p><input type="number" size="3" name="num" min="1" max="100" value="1"></p>
+                            <p><input type="number" size="3" name="num" min="0" max="100" value="0"></p>
                            </form>
                     </div>                    
                 </div>
@@ -168,6 +170,7 @@
                 
                 
             </section>
+
         </div>
         
     </main>

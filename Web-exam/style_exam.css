@@ -1,3 +1,23 @@
+.header {
+    position: sticky;
+    top: 0;
+}
+.header {
+    background-color: rgb(61, 109, 121);
+    padding-top: 20px;
+    border-bottom: 5px solid rgb(12, 238, 189);
+    height: 150px;
+    padding-bottom: 20px;
+
+}
+.container-boot {
+    padding-top: 40px;
+}
+
+.navbar-light {
+    font-size: 100px;
+}
+
 
 body {  
     background-color: #ece8e5;  
