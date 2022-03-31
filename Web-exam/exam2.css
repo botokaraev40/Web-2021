@@ -101,6 +101,17 @@
     border: black dashed;
 }
 
+.btn {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .cost p {
     margin-bottom: 20px;
     font-weight: bold;
@@ -128,4 +139,23 @@
     margin-bottom: 10px;
     min-height: 50px;
     min-width: 40px;
+}
+
+.form {
+    border: 2px solid rgb(16, 59, 45);
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin: 2px;
+    display: block;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
