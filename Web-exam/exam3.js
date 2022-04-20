@@ -1,24 +1,3 @@
-/*var request = new XMLHttpRequest();
-
-request.open('GET', 'http://exam-2022-1-api.std-900.ist.mospolytech.ru/api/restaurants?api_key=5e9df792-960e-467b-a3bd-c8ff759e9dfd');
-
-request.responseType = 'json'
-
-request.onload = () => {
-  if (request.status >= 400) {
-    console.error(request.response)
-  }
-  else {
-    console.log(request.response)
-    
-  }
-}
-
-request.onerror = () => {
-  console.log(request.response)
-}
-request.send();
-*/
 async function getResponse () {
   let response = await fetch('http://exam-2022-1-api.std-900.ist.mospolytech.ru/api/restaurants?api_key=5e9df792-960e-467b-a3bd-c8ff759e9dfd')
   let content = await response.json()
