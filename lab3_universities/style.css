@@ -42,12 +42,7 @@ body {
 
 }
 
-.sidebar {
-    padding: 20px;
-    width: 220px;
-    box-sizing: border-box;
-    float: left;
-}
+
 .goods-list {
     padding-top: 20px;
     display: flex;

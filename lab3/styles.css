@@ -13,11 +13,7 @@ body {
     flex-direction: column;
 }
 
-/*body::after {
-    content: "";
-    display: block;
-    height: 68px;
-}*/
+
 
 .clearfix::after {
     content: "";
