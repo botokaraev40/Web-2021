@@ -1,0 +1,22 @@
+.navbar {
+    background-color: rgb(25, 102, 83);
+    border-bottom: 5px solid rgb(16, 59, 45);
+
+
+}
+
+.image-fluid {
+    width: 120px;
+    height: 100px;
+}
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
